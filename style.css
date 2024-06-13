@@ -1,0 +1,75 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+
+/* header-start */
+
+.header{
+    position: relative;
+
+}
+
+
+.content img{
+    width: 2rem;
+    height: 1rem;
+    color: red;
+}
+
+.nameandlogo{
+    display: flex;
+}
+
+.name{
+    width: 7rem;
+    height: 1rem;
+    font-weight: 800;
+    color: red;
+    letter-spacing: 0.05cm; 
+    margin-left: 0.5rem;
+}
+
+.content .btn{
+    display: flex;
+    justify-content: flex-end;
+    flex: 1 1 0%;
+    gap: 0.5rem;
+    padding-right: 0px;
+    align-items: center;
+}
+
+.btn a{
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 1.5rem;
+    letter-spacing: -0.04ch;
+    text-transform: none;
+    font-size: 1rem;
+}
+
+.btn #create{
+    /* border: 2px solid black; */
+    width: 5rem;
+    height: 2.5rem;
+    border-radius: 20px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: #ffff;
+}
+
+.btn #enter{
+    color: black;
+}
+
+.content{
+    display: flex;
+    padding: 1rem 3rem; 
+    color: #ffff;
+    align-items: center;
+}
+
+/* header-end */
