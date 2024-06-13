@@ -6,8 +6,8 @@
 /* header-start */
 
 .header{
-    position: relative;
-
+    /* position: relative; */
+    opacity: 0;
 }
 
 
@@ -48,7 +48,7 @@
     font-size: 1rem;
 }
 
-.btn #create{
+#create{
     /* border: 2px solid black; */
     width: 5rem;
     height: 2.5rem;
@@ -61,8 +61,16 @@
     color: #ffff;
 }
 
-.btn #enter{
+#enter{
     color: black;
+    width: 5rem;
+    height: 2.5rem;
+    border-radius: 20px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffff;
 }
 
 .content{
@@ -73,3 +81,129 @@
 }
 
 /* header-end */
+
+
+/* main start */
+
+/* first start */
+.first img{
+    width: 99%;
+    height: 41rem;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 0px;
+}
+
+.entry-btn{
+    display: flex;
+    position: absolute;
+    top: 0px;
+    margin-top: 1rem;
+    margin-left: 82rem;
+    gap: 1rem;
+    
+}
+
+.first .entry img{
+    width: 13rem;
+    height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-left: 41rem;
+}
+
+.first .entry a{
+    position: relative;
+    z-index: 2;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 1.5rem;
+    letter-spacing: -0.04ch;
+    text-transform: none;
+    font-size: 1rem;
+    
+}
+
+
+.heading{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+    margin-left: 2rem;
+
+}
+
+.input-box {
+    width: 25.5rem;
+    height: 2rem;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 2px solid #60a5fa; /* Blue border */
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input-box .icon {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    color: #60a5fa; /* Blue icon color */
+}
+
+.input-box .text {
+    font-size: 1rem;
+    font-weight: 500;
+    
+}
+
+.input-box .arrow {
+    font-size: 1.5rem;
+    margin-left: 10rem;
+}
+
+.button {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 1rem;
+  }
+  
+  .user-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid black;
+  }
+  
+  .user-icon::before {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color:black;
+    border-radius: 50%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .heading h1{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+
+/* first end */
+
+/* main end */
